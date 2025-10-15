@@ -6,7 +6,7 @@ enable_language(CXX)
 enable_language(CUDA)
 
 if(NOT DEFINED CMAKE_CUDA_ARCHITECTURES)
-   set(CMAKE_CUDA_ARCHITECTURES "80")
+   set(CMAKE_CUDA_ARCHITECTURES "87")
 endif()
 
 set(CMAKE_CXX_STANDARD 17)
